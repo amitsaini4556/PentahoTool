@@ -1,0 +1,159 @@
+2021/03/09 14:19:02 - COPY ROWS TO RESULT AND GET FROM RESULT - Using run configuration [Pentaho local]
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - exec(5, 0, Start.0)
+2021/03/09 14:19:02 - Start - Starting job entry
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - Starting entry [copy rows to result]
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - exec(6, 0, copy rows to result.0)
+2021/03/09 14:19:02 - copy rows to result - Starting job entry
+2021/03/09 14:19:02 - copy rows to result - Opening transformation: [D:/Projects/DataIntegrationProjects/Outputs/functionCALL.ktr]
+2021/03/09 14:19:02 - copy rows to result - Starting transformation...(file=D:/Projects/DataIntegrationProjects/Outputs/functionCALL.ktr, name=copy rows to result, repinfo=null)
+2021/03/09 14:19:02 - copy rows to result - Using run configuration [Pentaho local]
+2021/03/09 14:19:02 - copy rows to result - Running transformation using the Kettle execution engine
+2021/03/09 14:19:02 - functionCALL - Transformation is pre-loaded.
+2021/03/09 14:19:02 - functionCALL - nr of steps to run : 3  , nr of hops : 2
+2021/03/09 14:19:02 - functionCALL - Dispatching started for transformation [functionCALL]
+2021/03/09 14:19:02 - functionCALL - Nr of arguments detected:0 
+2021/03/09 14:19:02 - functionCALL - This is not a replay transformation
+2021/03/09 14:19:02 - functionCALL - I found 3 different steps to launch.
+2021/03/09 14:19:02 - functionCALL - Allocating rowsets...
+2021/03/09 14:19:02 - functionCALL -  Allocating rowsets for step 0 --> Table input
+2021/03/09 14:19:02 - functionCALL -   prevcopies = 1, nextcopies=1
+2021/03/09 14:19:02 - functionCALL - Transformation allocated new rowset [Table input.0 - Call DB procedure.0]
+2021/03/09 14:19:02 - functionCALL -  Allocated 1 rowsets for step 0 --> Table input  
+2021/03/09 14:19:02 - functionCALL -  Allocating rowsets for step 1 --> Call DB procedure
+2021/03/09 14:19:02 - functionCALL -   prevcopies = 1, nextcopies=1
+2021/03/09 14:19:02 - functionCALL - Transformation allocated new rowset [Call DB procedure.0 - Copy rows to result.0]
+2021/03/09 14:19:02 - functionCALL -  Allocated 2 rowsets for step 1 --> Call DB procedure  
+2021/03/09 14:19:02 - functionCALL -  Allocating rowsets for step 2 --> Copy rows to result
+2021/03/09 14:19:02 - functionCALL -  Allocated 2 rowsets for step 2 --> Copy rows to result  
+2021/03/09 14:19:02 - functionCALL - Allocating Steps & StepData...
+2021/03/09 14:19:02 - functionCALL -  Transformation is about to allocate step [Table input] of type [TableInput]
+2021/03/09 14:19:02 - functionCALL -   Step has nrcopies=1
+2021/03/09 14:19:02 - Table input.0 - distribution activated
+2021/03/09 14:19:02 - Table input.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:19:02 - Table input.0 - Step info: nrinput=0 nroutput=1
+2021/03/09 14:19:02 - Table input.0 - output rel. is  1:1
+2021/03/09 14:19:02 - Table input.0 - Found output rowset [Table input.0 - Call DB procedure.0]
+2021/03/09 14:19:02 - Table input.0 - Finished dispatching
+2021/03/09 14:19:02 - functionCALL -  Transformation has allocated a new step: [Table input].0
+2021/03/09 14:19:02 - functionCALL -  Transformation is about to allocate step [Call DB procedure] of type [DBProc]
+2021/03/09 14:19:02 - functionCALL -   Step has nrcopies=1
+2021/03/09 14:19:02 - Call DB procedure.0 - distribution activated
+2021/03/09 14:19:02 - Call DB procedure.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:19:02 - Call DB procedure.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:19:02 - Call DB procedure.0 - Got previous step from [Call DB procedure] #0 --> Table input
+2021/03/09 14:19:02 - Call DB procedure.0 - input rel is 1:1
+2021/03/09 14:19:02 - Call DB procedure.0 - Found input rowset [Table input.0 - Call DB procedure.0]
+2021/03/09 14:19:02 - Call DB procedure.0 - output rel. is  1:1
+2021/03/09 14:19:02 - Call DB procedure.0 - Found output rowset [Call DB procedure.0 - Copy rows to result.0]
+2021/03/09 14:19:02 - Call DB procedure.0 - Finished dispatching
+2021/03/09 14:19:02 - functionCALL -  Transformation has allocated a new step: [Call DB procedure].0
+2021/03/09 14:19:02 - functionCALL -  Transformation is about to allocate step [Copy rows to result] of type [RowsToResult]
+2021/03/09 14:19:02 - functionCALL -   Step has nrcopies=1
+2021/03/09 14:19:02 - Copy rows to result.0 - distribution activated
+2021/03/09 14:19:02 - Copy rows to result.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:19:02 - Copy rows to result.0 - Step info: nrinput=1 nroutput=0
+2021/03/09 14:19:02 - Copy rows to result.0 - Got previous step from [Copy rows to result] #0 --> Call DB procedure
+2021/03/09 14:19:02 - Copy rows to result.0 - input rel is 1:1
+2021/03/09 14:19:02 - Copy rows to result.0 - Found input rowset [Call DB procedure.0 - Copy rows to result.0]
+2021/03/09 14:19:02 - Copy rows to result.0 - Finished dispatching
+2021/03/09 14:19:02 - functionCALL -  Transformation has allocated a new step: [Copy rows to result].0
+2021/03/09 14:19:02 - functionCALL - This transformation can be replayed with replay date: 2021/03/09 14:19:02
+2021/03/09 14:19:02 - functionCALL - Initialising 3 steps...
+2021/03/09 14:19:02 - Table input.0 - Released server socket on port 0
+2021/03/09 14:19:02 - Call DB procedure.0 - Released server socket on port 0
+2021/03/09 14:19:02 - Copy rows to result.0 - Released server socket on port 0
+2021/03/09 14:19:02 - DemoAPI - New database connection defined
+2021/03/09 14:19:02 - DemoAPI - New database connection defined
+2021/03/09 14:19:02 - Call DB procedure.0 - Connected to database...
+2021/03/09 14:19:02 - DemoAPI - Auto commit off
+2021/03/09 14:19:02 - Table input.0 - Connected to database...
+2021/03/09 14:19:02 - functionCALL - Step [Table input.0] initialized flawlessly.
+2021/03/09 14:19:02 - functionCALL - Step [Call DB procedure.0] initialized flawlessly.
+2021/03/09 14:19:02 - functionCALL - Step [Copy rows to result.0] initialized flawlessly.
+2021/03/09 14:19:02 - Table input.0 - Starting to run...
+2021/03/09 14:19:02 - Table input.0 - SQL query : SELECT
+  fst
+, snd
+FROM "public".functiondemo where snd =6;
+
+2021/03/09 14:19:02 - Copy rows to result.0 - Starting to run...
+2021/03/09 14:19:02 - functionCALL - Transformation has allocated 3 threads and 2 rowsets.
+2021/03/09 14:19:02 - Call DB procedure.0 - Starting to run...
+2021/03/09 14:19:02 - Table input.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:19:02 - Table input.0 - Finished reading query, closing connection.
+2021/03/09 14:19:02 - DemoAPI - DBA setting callableStatement to [{ ? = call adddata ( ?,  ?)}]
+2021/03/09 14:19:02 - Table input.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2021/03/09 14:19:02 - Call DB procedure.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:19:02 - Call DB procedure.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2021/03/09 14:19:02 - Copy rows to result.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/09 14:19:02 - Copy rows to result.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2021/03/09 14:19:02 - functionCALL - searching for annotations
+2021/03/09 14:19:02 - functionCALL - no annotations found
+2021/03/09 14:19:02 - DemoAPI - Commit on database connection [DemoAPI]
+2021/03/09 14:19:02 - functionCALL - All transaction of database connection 'DemoAPI' where committed at the end of the transformation.
+2021/03/09 14:19:02 - DemoAPI - Connection to database closed!
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - Starting entry [get rows from results]
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - exec(7, 0, get rows from results.0)
+2021/03/09 14:19:02 - get rows from results - Starting job entry
+2021/03/09 14:19:02 - get rows from results - Opening transformation: [D:/Projects/DataIntegrationProjects/Outputs/getrowfromresult.ktr]
+2021/03/09 14:19:02 - get rows from results - Starting transformation...(file=D:/Projects/DataIntegrationProjects/Outputs/getrowfromresult.ktr, name=get rows from results, repinfo=null)
+2021/03/09 14:19:02 - get rows from results - Using run configuration [Pentaho local]
+2021/03/09 14:19:02 - get rows from results - Running transformation using the Kettle execution engine
+2021/03/09 14:19:02 - getrowfromresult - Transformation is pre-loaded.
+2021/03/09 14:19:02 - getrowfromresult - nr of steps to run : 2  , nr of hops : 1
+2021/03/09 14:19:02 - getrowfromresult - Dispatching started for transformation [getrowfromresult]
+2021/03/09 14:19:02 - getrowfromresult - Nr of arguments detected:0 
+2021/03/09 14:19:02 - getrowfromresult - This is not a replay transformation
+2021/03/09 14:19:02 - getrowfromresult - I found 2 different steps to launch.
+2021/03/09 14:19:02 - getrowfromresult - Allocating rowsets...
+2021/03/09 14:19:02 - getrowfromresult -  Allocating rowsets for step 0 --> Get rows from result
+2021/03/09 14:19:02 - getrowfromresult -   prevcopies = 1, nextcopies=1
+2021/03/09 14:19:02 - getrowfromresult - Transformation allocated new rowset [Get rows from result.0 - Text file output.0]
+2021/03/09 14:19:02 - getrowfromresult -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2021/03/09 14:19:02 - getrowfromresult -  Allocating rowsets for step 1 --> Text file output
+2021/03/09 14:19:02 - getrowfromresult -  Allocated 1 rowsets for step 1 --> Text file output  
+2021/03/09 14:19:02 - getrowfromresult - Allocating Steps & StepData...
+2021/03/09 14:19:02 - getrowfromresult -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2021/03/09 14:19:02 - getrowfromresult -   Step has nrcopies=1
+2021/03/09 14:19:02 - Get rows from result.0 - distribution activated
+2021/03/09 14:19:02 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:19:02 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2021/03/09 14:19:02 - Get rows from result.0 - output rel. is  1:1
+2021/03/09 14:19:02 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Text file output.0]
+2021/03/09 14:19:02 - Get rows from result.0 - Finished dispatching
+2021/03/09 14:19:02 - getrowfromresult -  Transformation has allocated a new step: [Get rows from result].0
+2021/03/09 14:19:02 - getrowfromresult -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2021/03/09 14:19:02 - getrowfromresult -   Step has nrcopies=1
+2021/03/09 14:19:02 - Text file output.0 - distribution activated
+2021/03/09 14:19:02 - Text file output.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:19:02 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2021/03/09 14:19:02 - Text file output.0 - Got previous step from [Text file output] #0 --> Get rows from result
+2021/03/09 14:19:02 - Text file output.0 - input rel is 1:1
+2021/03/09 14:19:02 - Text file output.0 - Found input rowset [Get rows from result.0 - Text file output.0]
+2021/03/09 14:19:02 - Text file output.0 - Finished dispatching
+2021/03/09 14:19:02 - getrowfromresult -  Transformation has allocated a new step: [Text file output].0
+2021/03/09 14:19:02 - getrowfromresult - This transformation can be replayed with replay date: 2021/03/09 14:19:02
+2021/03/09 14:19:02 - getrowfromresult - Initialising 2 steps...
+2021/03/09 14:19:02 - Get rows from result.0 - Released server socket on port 0
+2021/03/09 14:19:02 - Text file output.0 - Released server socket on port 0
+2021/03/09 14:19:02 - Text file output.0 - Parent folder exists [file:///D:/Projects/DataIntegrationProjects/Outputs]!
+2021/03/09 14:19:02 - Text file output.0 - Opening output stream using provider: None
+2021/03/09 14:19:02 - Text file output.0 - Opening output stream in encoding: windows-1252
+2021/03/09 14:19:02 - Text file output.0 - Opened new file with name [file:///D:/Projects/DataIntegrationProjects/Outputs/getrowsfromresultoutput.txt]
+2021/03/09 14:19:02 - getrowfromresult - Step [Get rows from result.0] initialized flawlessly.
+2021/03/09 14:19:02 - getrowfromresult - Step [Text file output.0] initialized flawlessly.
+2021/03/09 14:19:02 - Get rows from result.0 - Starting to run...
+2021/03/09 14:19:02 - getrowfromresult - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/09 14:19:02 - Get rows from result.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:19:02 - Get rows from result.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2021/03/09 14:19:02 - Text file output.0 - Starting to run...
+2021/03/09 14:19:02 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/09 14:19:02 - Text file output.0 - Finished processing (I=0, O=3, R=2, W=2, U=0, E=0)
+2021/03/09 14:19:02 - getrowfromresult - searching for annotations
+2021/03/09 14:19:02 - getrowfromresult - no annotations found
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - Starting entry [Success]
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - exec(8, 0, Success.0)
+2021/03/09 14:19:02 - Success - Starting job entry
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - Finished job entry [Success] (result=[true])
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - Finished job entry [get rows from results] (result=[true])
+2021/03/09 14:19:02 - copyrowstoresutandgetfromresult - Finished job entry [copy rows to result] (result=[true])

@@ -1,0 +1,111 @@
+2021/03/09 14:18:26 - FIRST JOB - Using run configuration [Pentaho local]
+2021/03/09 14:18:26 - First Job - exec(3, 0, Start.0)
+2021/03/09 14:18:26 - Start - Starting job entry
+2021/03/09 14:18:26 - First Job - Starting entry [Checks if files exist]
+2021/03/09 14:18:26 - First Job - exec(4, 0, Checks if files exist.0)
+2021/03/09 14:18:26 - Checks if files exist - Starting job entry
+2021/03/09 14:18:26 - Checks if files exist - File [D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv] exists.
+2021/03/09 14:18:26 - First Job - Starting entry [Transformation]
+2021/03/09 14:18:26 - First Job - exec(5, 0, Transformation.0)
+2021/03/09 14:18:26 - Transformation - Starting job entry
+2021/03/09 14:18:26 - Transformation - Opening transformation: [file:///D:/Projects/DataIntegrationProjects/Outputs/OutputData.ktr]
+2021/03/09 14:18:26 - Transformation - Starting transformation...(file=${Internal.Entry.Current.Directory}/OutputData.ktr, name=Transformation, repinfo=null)
+2021/03/09 14:18:26 - Transformation - Using run configuration [Pentaho local]
+2021/03/09 14:18:26 - Transformation - Running transformation using the Kettle execution engine
+2021/03/09 14:18:26 - Output Data - Transformation is pre-loaded.
+2021/03/09 14:18:26 - Output Data - nr of steps to run : 3  , nr of hops : 2
+2021/03/09 14:18:26 - Output Data - Dispatching started for transformation [Output Data]
+2021/03/09 14:18:26 - Output Data - Nr of arguments detected:0 
+2021/03/09 14:18:26 - Output Data - This is not a replay transformation
+2021/03/09 14:18:26 - Output Data - I found 3 different steps to launch.
+2021/03/09 14:18:26 - Output Data - Allocating rowsets...
+2021/03/09 14:18:26 - Output Data -  Allocating rowsets for step 0 --> getScripts
+2021/03/09 14:18:26 - Output Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:26 - Output Data - Transformation allocated new rowset [getScripts.0 - Execute a process.0]
+2021/03/09 14:18:26 - Output Data -  Allocated 1 rowsets for step 0 --> getScripts  
+2021/03/09 14:18:26 - Output Data -  Allocating rowsets for step 1 --> Execute a process
+2021/03/09 14:18:26 - Output Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:26 - Output Data - Transformation allocated new rowset [Execute a process.0 - Write to log.0]
+2021/03/09 14:18:26 - Output Data -  Allocated 2 rowsets for step 1 --> Execute a process  
+2021/03/09 14:18:26 - Output Data -  Allocating rowsets for step 2 --> Write to log
+2021/03/09 14:18:26 - Output Data -  Allocated 2 rowsets for step 2 --> Write to log  
+2021/03/09 14:18:26 - Output Data - Allocating Steps & StepData...
+2021/03/09 14:18:26 - Output Data -  Transformation is about to allocate step [getScripts] of type [GetFileNames]
+2021/03/09 14:18:26 - Output Data -   Step has nrcopies=1
+2021/03/09 14:18:26 - getScripts.0 - distribution activated
+2021/03/09 14:18:26 - getScripts.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:26 - getScripts.0 - Step info: nrinput=0 nroutput=1
+2021/03/09 14:18:26 - getScripts.0 - output rel. is  1:1
+2021/03/09 14:18:26 - getScripts.0 - Found output rowset [getScripts.0 - Execute a process.0]
+2021/03/09 14:18:26 - getScripts.0 - Finished dispatching
+2021/03/09 14:18:26 - Output Data -  Transformation has allocated a new step: [getScripts].0
+2021/03/09 14:18:26 - Output Data -  Transformation is about to allocate step [Execute a process] of type [ExecProcess]
+2021/03/09 14:18:26 - Output Data -   Step has nrcopies=1
+2021/03/09 14:18:26 - Execute a process.0 - distribution activated
+2021/03/09 14:18:26 - Execute a process.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:26 - Execute a process.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:18:26 - Execute a process.0 - Got previous step from [Execute a process] #0 --> getScripts
+2021/03/09 14:18:26 - Execute a process.0 - input rel is 1:1
+2021/03/09 14:18:26 - Execute a process.0 - Found input rowset [getScripts.0 - Execute a process.0]
+2021/03/09 14:18:26 - Execute a process.0 - output rel. is  1:1
+2021/03/09 14:18:26 - Execute a process.0 - Found output rowset [Execute a process.0 - Write to log.0]
+2021/03/09 14:18:26 - Execute a process.0 - Finished dispatching
+2021/03/09 14:18:26 - Output Data -  Transformation has allocated a new step: [Execute a process].0
+2021/03/09 14:18:26 - Output Data -  Transformation is about to allocate step [Write to log] of type [WriteToLog]
+2021/03/09 14:18:26 - Output Data -   Step has nrcopies=1
+2021/03/09 14:18:26 - Write to log.0 - distribution activated
+2021/03/09 14:18:26 - Write to log.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:26 - Write to log.0 - Step info: nrinput=1 nroutput=0
+2021/03/09 14:18:26 - Write to log.0 - Got previous step from [Write to log] #0 --> Execute a process
+2021/03/09 14:18:26 - Write to log.0 - input rel is 1:1
+2021/03/09 14:18:26 - Write to log.0 - Found input rowset [Execute a process.0 - Write to log.0]
+2021/03/09 14:18:26 - Write to log.0 - Finished dispatching
+2021/03/09 14:18:26 - Output Data -  Transformation has allocated a new step: [Write to log].0
+2021/03/09 14:18:26 - Output Data - This transformation can be replayed with replay date: 2021/03/09 14:18:26
+2021/03/09 14:18:26 - Output Data - Initialising 3 steps...
+2021/03/09 14:18:26 - getScripts.0 - Released server socket on port 0
+2021/03/09 14:18:26 - Execute a process.0 - Released server socket on port 0
+2021/03/09 14:18:26 - Write to log.0 - Released server socket on port 0
+2021/03/09 14:18:26 - Output Data - Step [getScripts.0] initialized flawlessly.
+2021/03/09 14:18:26 - Output Data - Step [Execute a process.0] initialized flawlessly.
+2021/03/09 14:18:26 - Output Data - Step [Write to log.0] initialized flawlessly.
+2021/03/09 14:18:26 - getScripts.0 - Starting to run...
+2021/03/09 14:18:26 - Execute a process.0 - Starting to run...
+2021/03/09 14:18:26 - Output Data - Transformation has allocated 3 threads and 2 rowsets.
+2021/03/09 14:18:26 - Write to log.0 - Starting to run...
+2021/03/09 14:18:26 - getScripts.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:26 - getScripts.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2021/03/09 14:18:36 - Output Data - Triggering heartbeat signal for Output Data at every 10 seconds
+2021/03/09 14:18:43 - Execute a process.0 - linenr 1 : [D:\Projects\DataIntegrationProjects\Outputs\SCRIPTS\GetFileNameBatchFile.bat], [GetFileNameBatchFile.bat], [D:\Projects\DataIntegrationProjects\Outputs\SCRIPTS], [file], [Y], [N], [Y], [Y], [2021/03/09 14:03:36.661], [142], [bat], [file:///D:/Projects/DataIntegrationProjects/Outputs/SCRIPTS/GetFileNameBatchFile.bat], [file:///D:/]
+2021/03/09 14:18:43 - Write to log.0 - 
+2021/03/09 14:18:43 - Write to log.0 - ------------> Linenr 1------------------------------
+2021/03/09 14:18:43 - Write to log.0 - filename = D:\Projects\DataIntegrationProjects\Outputs\SCRIPTS\GetFileNameBatchFile.bat
+2021/03/09 14:18:43 - Write to log.0 - short_filename = GetFileNameBatchFile.bat
+2021/03/09 14:18:43 - Write to log.0 - path = D:\Projects\DataIntegrationProjects\Outputs\SCRIPTS
+2021/03/09 14:18:43 - Write to log.0 - type = file
+2021/03/09 14:18:43 - Write to log.0 - exists = Y
+2021/03/09 14:18:43 - Write to log.0 - ishidden = N
+2021/03/09 14:18:43 - Write to log.0 - isreadable = Y
+2021/03/09 14:18:43 - Write to log.0 - iswriteable = Y
+2021/03/09 14:18:43 - Write to log.0 - lastmodifiedtime = 2021/03/09 14:03:36.661
+2021/03/09 14:18:43 - Write to log.0 - size = 142
+2021/03/09 14:18:43 - Write to log.0 - extension = bat
+2021/03/09 14:18:43 - Write to log.0 - uri = file:///D:/Projects/DataIntegrationProjects/Outputs/SCRIPTS/GetFileNameBatchFile.bat
+2021/03/09 14:18:43 - Write to log.0 - rooturi = file:///D:/
+2021/03/09 14:18:43 - Write to log.0 - Result output = D:\data-integration>D:\data-integration\Kitchen.bat /file:"D:\data-integration\samples\jobs\process all tables\FirstJob.kjb" /level:Rowlevel   1>transactionlog.txt 
+2021/03/09 14:18:43 - Write to log.0 - Error output = 
+2021/03/09 14:18:43 - Write to log.0 - Exit value = 0
+2021/03/09 14:18:43 - Write to log.0 - 
+2021/03/09 14:18:43 - Write to log.0 - ====================
+2021/03/09 14:18:43 - Execute a process.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:43 - Execute a process.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/09 14:18:43 - Write to log.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/09 14:18:43 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/09 14:18:43 - Output Data - searching for annotations
+2021/03/09 14:18:43 - Output Data - no annotations found
+2021/03/09 14:18:43 - First Job - Starting entry [Success]
+2021/03/09 14:18:43 - First Job - exec(6, 0, Success.0)
+2021/03/09 14:18:43 - Success - Starting job entry
+2021/03/09 14:18:43 - First Job - Finished job entry [Success] (result=[true])
+2021/03/09 14:18:43 - First Job - Finished job entry [Transformation] (result=[true])
+2021/03/09 14:18:43 - First Job - Finished job entry [Checks if files exist] (result=[true])

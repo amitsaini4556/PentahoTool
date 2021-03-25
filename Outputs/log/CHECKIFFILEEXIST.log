@@ -1,0 +1,12 @@
+2021/03/10 11:39:54 - check file exist or not - Using run configuration [Pentaho local]
+2021/03/10 11:39:54 - checkfileexist - exec(4, 0, Start.0)
+2021/03/10 11:39:54 - Start - Starting job entry
+2021/03/10 11:39:54 - checkfileexist - Starting entry [Checks if files exist]
+2021/03/10 11:39:54 - checkfileexist - exec(5, 0, Checks if files exist.0)
+2021/03/10 11:39:54 - Checks if files exist - Starting job entry
+2021/03/10 11:39:54 - Checks if files exist - File [D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv] does not exist!
+2021/03/10 11:39:54 - checkfileexist - Starting entry [return false]
+2021/03/10 11:39:54 - checkfileexist - exec(6, 0, return false.0)
+2021/03/10 11:39:54 - return false - Starting job entry
+2021/03/10 11:39:54 - checkfileexist - Finished job entry [return false] (result=[true])
+2021/03/10 11:39:54 - checkfileexist - Finished job entry [Checks if files exist] (result=[true])

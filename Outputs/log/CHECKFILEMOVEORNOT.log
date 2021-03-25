@@ -1,0 +1,24 @@
+2021/03/10 11:39:53 - check file move or not - Using run configuration [Pentaho local]
+2021/03/10 11:39:53 - filemovetoanotherfolder - exec(3, 0, Start.0)
+2021/03/10 11:39:53 - Start - Starting job entry
+2021/03/10 11:39:53 - filemovetoanotherfolder - Starting entry [Check files locked]
+2021/03/10 11:39:53 - filemovetoanotherfolder - exec(4, 0, Check files locked.0)
+2021/03/10 11:39:53 - Check files locked - Starting job entry
+2021/03/10 11:39:53 - Check files locked - Processing argument [D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv].. wildcard [null] ?
+2021/03/10 11:39:53 - Check files locked - Processing file [D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv]
+2021/03/10 11:39:53 - Check files locked - File [D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv] is not locked.
+2021/03/10 11:39:53 - filemovetoanotherfolder - Starting entry [Move files]
+2021/03/10 11:39:53 - filemovetoanotherfolder - exec(5, 0, Move files.0)
+2021/03/10 11:39:53 - Move files - Starting job entry
+2021/03/10 11:39:53 - Move files - Processing row source File/folder source : [D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv] ... destination file/folder : [D:\Projects\DataIntegrationProjects\Outputs\Destination]... wildcard : [null]
+2021/03/10 11:39:53 - Move files - File [file:///D:/Projects/DataIntegrationProjects/Inputs/Test ETL.csv] was moved to file:///D:/Projects/DataIntegrationProjects/Outputs/Destination/Test ETL.csv
+2021/03/10 11:39:53 - Move files - =======================================
+2021/03/10 11:39:53 - Move files - Total files in error : 0
+2021/03/10 11:39:53 - Move files - Total files successfully processed : 1
+2021/03/10 11:39:53 - Move files - =======================================
+2021/03/10 11:39:53 - filemovetoanotherfolder - Starting entry [Success]
+2021/03/10 11:39:53 - filemovetoanotherfolder - exec(6, 0, Success.0)
+2021/03/10 11:39:53 - Success - Starting job entry
+2021/03/10 11:39:53 - filemovetoanotherfolder - Finished job entry [Success] (result=[true])
+2021/03/10 11:39:53 - filemovetoanotherfolder - Finished job entry [Move files] (result=[true])
+2021/03/10 11:39:53 - filemovetoanotherfolder - Finished job entry [Check files locked] (result=[true])

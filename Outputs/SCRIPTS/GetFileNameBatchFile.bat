@@ -1,0 +1,1 @@
+D:\data-integration\Kitchen.bat /file:"D:\Projects\DataIntegrationProjects\Outputs\FirstJob.kjb" /level:Rowlevel  > transactionlog.txt

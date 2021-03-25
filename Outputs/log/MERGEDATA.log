@@ -1,0 +1,260 @@
+2021/03/09 14:18:25 - Merge Data - Using run configuration [Pentaho local]
+2021/03/09 14:18:25 - Merge Data - Running transformation using the Kettle execution engine
+2021/03/09 14:18:25 - Merge Data - Dispatching started for transformation [Merge Data]
+2021/03/09 14:18:25 - Merge Data - Nr of arguments detected:0 
+2021/03/09 14:18:25 - Merge Data - This is not a replay transformation
+2021/03/09 14:18:25 - Merge Data - I found 11 different steps to launch.
+2021/03/09 14:18:25 - Merge Data - Allocating rowsets...
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 0 --> CSV file input
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [CSV file input.0 - Sort rows.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 1 rowsets for step 0 --> CSV file input  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 1 --> Sort rows
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Sort rows.0 - Sorted merge.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 2 rowsets for step 1 --> Sort rows  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 2 --> CSV file input 2
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [CSV file input 2.0 - Sort rows 2.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 3 rowsets for step 2 --> CSV file input 2  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 3 --> Sort rows 2
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Sort rows 2.0 - Sorted merge.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 4 rowsets for step 3 --> Sort rows 2  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 4 --> Sorted merge
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Sorted merge.0 - Unique rows.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 5 rowsets for step 4 --> Sorted merge  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 5 --> Unique rows
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Unique rows.0 - Value mapper.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 6 rowsets for step 5 --> Unique rows  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 6 --> Value mapper
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Value mapper.0 - Replace in string.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 7 rowsets for step 6 --> Value mapper  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 7 --> Replace in string
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Replace in string.0 - Fuzzy match.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 8 rowsets for step 7 --> Replace in string  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 8 --> Fuzzy match
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [Fuzzy match.0 - Select values.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 9 rowsets for step 8 --> Fuzzy match  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 9 --> CSV file input 3
+2021/03/09 14:18:25 - Merge Data -   prevcopies = 1, nextcopies=1
+2021/03/09 14:18:25 - Merge Data - Transformation allocated new rowset [CSV file input 3.0 - Fuzzy match.0]
+2021/03/09 14:18:25 - Merge Data -  Allocated 10 rowsets for step 9 --> CSV file input 3  
+2021/03/09 14:18:25 - Merge Data -  Allocating rowsets for step 10 --> Select values
+2021/03/09 14:18:25 - Merge Data -  Allocated 10 rowsets for step 10 --> Select values  
+2021/03/09 14:18:25 - Merge Data - Allocating Steps & StepData...
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [CSV file input] of type [CsvInput]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - CSV file input.0 - distribution activated
+2021/03/09 14:18:25 - CSV file input.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - CSV file input.0 - Step info: nrinput=0 nroutput=1
+2021/03/09 14:18:25 - CSV file input.0 - output rel. is  1:1
+2021/03/09 14:18:25 - CSV file input.0 - Found output rowset [CSV file input.0 - Sort rows.0]
+2021/03/09 14:18:25 - CSV file input.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [CSV file input].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Sort rows] of type [SortRows]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Sort rows.0 - distribution activated
+2021/03/09 14:18:25 - Sort rows.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Sort rows.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:18:25 - Sort rows.0 - Got previous step from [Sort rows] #0 --> CSV file input
+2021/03/09 14:18:25 - Sort rows.0 - input rel is 1:1
+2021/03/09 14:18:25 - Sort rows.0 - Found input rowset [CSV file input.0 - Sort rows.0]
+2021/03/09 14:18:25 - Sort rows.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Sort rows.0 - Found output rowset [Sort rows.0 - Sorted merge.0]
+2021/03/09 14:18:25 - Sort rows.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Sort rows].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [CSV file input 2] of type [CsvInput]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - CSV file input 2.0 - distribution activated
+2021/03/09 14:18:25 - CSV file input 2.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - CSV file input 2.0 - Step info: nrinput=0 nroutput=1
+2021/03/09 14:18:25 - CSV file input 2.0 - output rel. is  1:1
+2021/03/09 14:18:25 - CSV file input 2.0 - Found output rowset [CSV file input 2.0 - Sort rows 2.0]
+2021/03/09 14:18:25 - CSV file input 2.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [CSV file input 2].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Sort rows 2] of type [SortRows]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Sort rows 2.0 - distribution activated
+2021/03/09 14:18:25 - Sort rows 2.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Sort rows 2.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:18:25 - Sort rows 2.0 - Got previous step from [Sort rows 2] #0 --> CSV file input 2
+2021/03/09 14:18:25 - Sort rows 2.0 - input rel is 1:1
+2021/03/09 14:18:25 - Sort rows 2.0 - Found input rowset [CSV file input 2.0 - Sort rows 2.0]
+2021/03/09 14:18:25 - Sort rows 2.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Sort rows 2.0 - Found output rowset [Sort rows 2.0 - Sorted merge.0]
+2021/03/09 14:18:25 - Sort rows 2.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Sort rows 2].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Sorted merge] of type [SortedMerge]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Sorted merge.0 - distribution activated
+2021/03/09 14:18:25 - Sorted merge.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Sorted merge.0 - Step info: nrinput=2 nroutput=1
+2021/03/09 14:18:25 - Sorted merge.0 - Got previous step from [Sorted merge] #0 --> Sort rows 2
+2021/03/09 14:18:25 - Sorted merge.0 - input rel is 1:1
+2021/03/09 14:18:25 - Sorted merge.0 - Found input rowset [Sort rows 2.0 - Sorted merge.0]
+2021/03/09 14:18:25 - Sorted merge.0 - Got previous step from [Sorted merge] #1 --> Sort rows
+2021/03/09 14:18:25 - Sorted merge.0 - input rel is 1:1
+2021/03/09 14:18:25 - Sorted merge.0 - Found input rowset [Sort rows.0 - Sorted merge.0]
+2021/03/09 14:18:25 - Sorted merge.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Sorted merge.0 - Found output rowset [Sorted merge.0 - Unique rows.0]
+2021/03/09 14:18:25 - Sorted merge.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Sorted merge].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Unique rows] of type [Unique]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Unique rows.0 - distribution activated
+2021/03/09 14:18:25 - Unique rows.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Unique rows.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:18:25 - Unique rows.0 - Got previous step from [Unique rows] #0 --> Sorted merge
+2021/03/09 14:18:25 - Unique rows.0 - input rel is 1:1
+2021/03/09 14:18:25 - Unique rows.0 - Found input rowset [Sorted merge.0 - Unique rows.0]
+2021/03/09 14:18:25 - Unique rows.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Unique rows.0 - Found output rowset [Unique rows.0 - Value mapper.0]
+2021/03/09 14:18:25 - Unique rows.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Unique rows].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Value mapper] of type [ValueMapper]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Value mapper.0 - distribution activated
+2021/03/09 14:18:25 - Value mapper.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Value mapper.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:18:25 - Value mapper.0 - Got previous step from [Value mapper] #0 --> Unique rows
+2021/03/09 14:18:25 - Value mapper.0 - input rel is 1:1
+2021/03/09 14:18:25 - Value mapper.0 - Found input rowset [Unique rows.0 - Value mapper.0]
+2021/03/09 14:18:25 - Value mapper.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Value mapper.0 - Found output rowset [Value mapper.0 - Replace in string.0]
+2021/03/09 14:18:25 - Value mapper.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Value mapper].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Replace in string] of type [ReplaceString]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Replace in string.0 - distribution activated
+2021/03/09 14:18:25 - Replace in string.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Replace in string.0 - Step info: nrinput=1 nroutput=1
+2021/03/09 14:18:25 - Replace in string.0 - Got previous step from [Replace in string] #0 --> Value mapper
+2021/03/09 14:18:25 - Replace in string.0 - input rel is 1:1
+2021/03/09 14:18:25 - Replace in string.0 - Found input rowset [Value mapper.0 - Replace in string.0]
+2021/03/09 14:18:25 - Replace in string.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Replace in string.0 - Found output rowset [Replace in string.0 - Fuzzy match.0]
+2021/03/09 14:18:25 - Replace in string.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Replace in string].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Fuzzy match] of type [FuzzyMatch]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Fuzzy match.0 - distribution activated
+2021/03/09 14:18:25 - Fuzzy match.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Fuzzy match.0 - Step info: nrinput=2 nroutput=1
+2021/03/09 14:18:25 - Fuzzy match.0 - Got previous step from [Fuzzy match] #0 --> Replace in string
+2021/03/09 14:18:25 - Fuzzy match.0 - input rel is 1:1
+2021/03/09 14:18:25 - Fuzzy match.0 - Found input rowset [Replace in string.0 - Fuzzy match.0]
+2021/03/09 14:18:25 - Fuzzy match.0 - Got previous step from [Fuzzy match] #1 --> CSV file input 3
+2021/03/09 14:18:25 - Fuzzy match.0 - input rel is 1:1
+2021/03/09 14:18:25 - Fuzzy match.0 - Found input rowset [CSV file input 3.0 - Fuzzy match.0]
+2021/03/09 14:18:25 - Fuzzy match.0 - output rel. is  1:1
+2021/03/09 14:18:25 - Fuzzy match.0 - Found output rowset [Fuzzy match.0 - Select values.0]
+2021/03/09 14:18:25 - Fuzzy match.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Fuzzy match].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [CSV file input 3] of type [CsvInput]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - CSV file input 3.0 - distribution activated
+2021/03/09 14:18:25 - CSV file input 3.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - CSV file input 3.0 - Step info: nrinput=0 nroutput=1
+2021/03/09 14:18:25 - CSV file input 3.0 - output rel. is  1:1
+2021/03/09 14:18:25 - CSV file input 3.0 - Found output rowset [CSV file input 3.0 - Fuzzy match.0]
+2021/03/09 14:18:25 - CSV file input 3.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [CSV file input 3].0
+2021/03/09 14:18:25 - Merge Data -  Transformation is about to allocate step [Select values] of type [SelectValues]
+2021/03/09 14:18:25 - Merge Data -   Step has nrcopies=1
+2021/03/09 14:18:25 - Select values.0 - distribution activated
+2021/03/09 14:18:25 - Select values.0 - Starting allocation of buffers & new threads...
+2021/03/09 14:18:25 - Select values.0 - Step info: nrinput=1 nroutput=0
+2021/03/09 14:18:25 - Select values.0 - Got previous step from [Select values] #0 --> Fuzzy match
+2021/03/09 14:18:25 - Select values.0 - input rel is 1:1
+2021/03/09 14:18:25 - Select values.0 - Found input rowset [Fuzzy match.0 - Select values.0]
+2021/03/09 14:18:25 - Select values.0 - Finished dispatching
+2021/03/09 14:18:25 - Merge Data -  Transformation has allocated a new step: [Select values].0
+2021/03/09 14:18:25 - Merge Data - This transformation can be replayed with replay date: 2021/03/09 14:18:25
+2021/03/09 14:18:25 - Merge Data - Initialising 11 steps...
+2021/03/09 14:18:25 - CSV file input.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Sorted merge.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Replace in string.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Value mapper.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Sort rows 2.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Fuzzy match.0 - Released server socket on port 0
+2021/03/09 14:18:25 - CSV file input 3.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Select values.0 - Released server socket on port 0
+2021/03/09 14:18:25 - CSV file input 2.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Fuzzy match.0 - Minimal distance is 0
+2021/03/09 14:18:25 - Unique rows.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Sort rows.0 - Released server socket on port 0
+2021/03/09 14:18:25 - Fuzzy match.0 - Maximal distance is 2
+2021/03/09 14:18:25 - Merge Data - Step [CSV file input.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Sort rows.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [CSV file input 2.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Sort rows 2.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Sorted merge.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Unique rows.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Value mapper.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Replace in string.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Fuzzy match.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [CSV file input 3.0] initialized flawlessly.
+2021/03/09 14:18:25 - Merge Data - Step [Select values.0] initialized flawlessly.
+2021/03/09 14:18:25 - Sort rows.0 - Starting to run...
+2021/03/09 14:18:25 - Sort rows 2.0 - Starting to run...
+2021/03/09 14:18:25 - Unique rows.0 - Starting to run...
+2021/03/09 14:18:25 - Replace in string.0 - Starting to run...
+2021/03/09 14:18:25 - CSV file input.0 - Starting to run...
+2021/03/09 14:18:25 - Select values.0 - Starting to run...
+2021/03/09 14:18:25 - CSV file input 3.0 - Starting to run...
+2021/03/09 14:18:25 - Fuzzy match.0 - Starting to run...
+2021/03/09 14:18:25 - Merge Data - Transformation has allocated 11 threads and 10 rowsets.
+2021/03/09 14:18:25 - Value mapper.0 - Starting to run...
+2021/03/09 14:18:25 - CSV file input 2.0 - Starting to run...
+2021/03/09 14:18:25 - CSV file input.0 - convert line to row
+2021/03/09 14:18:25 - CSV file input.0 - convert line to row
+2021/03/09 14:18:25 - CSV file input.0 - convert line to row
+2021/03/09 14:18:25 - Sorted merge.0 - Starting to run...
+2021/03/09 14:18:25 - CSV file input 3.0 - convert line to row
+2021/03/09 14:18:25 - Fuzzy match.0 - Reading from stream [CSV file input 3]
+2021/03/09 14:18:25 - CSV file input 2.0 - convert line to row
+2021/03/09 14:18:25 - CSV file input 2.0 - convert line to row
+2021/03/09 14:18:25 - CSV file input 2.0 - convert line to row
+2021/03/09 14:18:25 - CSV file input.0 - Header row skipped in file 'D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv'
+2021/03/09 14:18:25 - CSV file input 3.0 - Header row skipped in file 'D:\Projects\DataIntegrationProjects\inputs\correct city names.txt'
+2021/03/09 14:18:25 - CSV file input.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - CSV file input.0 - Finished processing (I=1, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - CSV file input 2.0 - Header row skipped in file 'D:\Projects\DataIntegrationProjects\Inputs\Test ETL.csv'
+2021/03/09 14:18:25 - CSV file input 3.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - CSV file input 3.0 - Finished processing (I=5, O=0, R=0, W=4, U=0, E=0)
+2021/03/09 14:18:25 - CSV file input 2.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - CSV file input 2.0 - Finished processing (I=1, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Fuzzy match.0 - Read lookup row: [jaipur]
+2021/03/09 14:18:25 - Fuzzy match.0 - Adding row [jaipur], [jaipur] to cache ...
+2021/03/09 14:18:25 - Fuzzy match.0 - Read lookup row: [sikar]
+2021/03/09 14:18:25 - Fuzzy match.0 - Adding row [sikar], [sikar] to cache ...
+2021/03/09 14:18:25 - Fuzzy match.0 - Read lookup row: [udaipur]
+2021/03/09 14:18:25 - Fuzzy match.0 - Adding row [udaipur], [udaipur] to cache ...
+2021/03/09 14:18:25 - Fuzzy match.0 - Read lookup row: [rajasmand]
+2021/03/09 14:18:25 - Fuzzy match.0 - Adding row [rajasmand], [rajasmand] to cache ...
+2021/03/09 14:18:25 - Sort rows 2.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Sort rows.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Sort rows.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Sort rows 2.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Fuzzy match.0 - Read 4 values in memory for lookup!
+2021/03/09 14:18:25 - Sorted merge.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Sorted merge.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Unique rows.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Unique rows.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Value mapper.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Value mapper.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Replace in string.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Replace in string.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Fuzzy match.0 - Stopped processing with empty row after 4 rows.
+2021/03/09 14:18:25 - Fuzzy match.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/09 14:18:25 - Fuzzy match.0 - Finished processing (I=0, O=0, R=4, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Select values.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/09 14:18:25 - Select values.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2021/03/09 14:18:25 - Merge Data - searching for annotations
+2021/03/09 14:18:25 - Merge Data - no annotations found

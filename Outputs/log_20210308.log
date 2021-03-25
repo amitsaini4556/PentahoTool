@@ -1,0 +1,260 @@
+2021/03/08 11:57:30 - Get Variables - Using run configuration [Pentaho local]
+2021/03/08 11:57:30 - Get Variables - Running transformation using the Kettle execution engine
+2021/03/08 11:57:30 - getvariables - Dispatching started for transformation [getvariables]
+2021/03/08 11:57:30 - getvariables - Nr of arguments detected:0 
+2021/03/08 11:57:30 - getvariables - This is not a replay transformation
+2021/03/08 11:57:30 - getvariables - I found 2 different steps to launch.
+2021/03/08 11:57:30 - getvariables - Allocating rowsets...
+2021/03/08 11:57:30 - getvariables -  Allocating rowsets for step 0 --> Get rows from result
+2021/03/08 11:57:30 - getvariables -   prevcopies = 1, nextcopies=1
+2021/03/08 11:57:30 - getvariables - Transformation allocated new rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:30 - getvariables -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2021/03/08 11:57:30 - getvariables -  Allocating rowsets for step 1 --> Text file output
+2021/03/08 11:57:30 - getvariables -  Allocated 1 rowsets for step 1 --> Text file output  
+2021/03/08 11:57:30 - getvariables - Allocating Steps & StepData...
+2021/03/08 11:57:30 - getvariables -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2021/03/08 11:57:30 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:30 - Get rows from result.0 - distribution activated
+2021/03/08 11:57:30 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:30 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2021/03/08 11:57:30 - Get rows from result.0 - output rel. is  1:1
+2021/03/08 11:57:30 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:30 - Get rows from result.0 - Finished dispatching
+2021/03/08 11:57:30 - getvariables -  Transformation has allocated a new step: [Get rows from result].0
+2021/03/08 11:57:30 - getvariables -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2021/03/08 11:57:30 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:30 - Text file output.0 - distribution activated
+2021/03/08 11:57:30 - Text file output.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:30 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2021/03/08 11:57:30 - Text file output.0 - Got previous step from [Text file output] #0 --> Get rows from result
+2021/03/08 11:57:30 - Text file output.0 - input rel is 1:1
+2021/03/08 11:57:30 - Text file output.0 - Found input rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:30 - Text file output.0 - Finished dispatching
+2021/03/08 11:57:30 - getvariables -  Transformation has allocated a new step: [Text file output].0
+2021/03/08 11:57:30 - getvariables - This transformation can be replayed with replay date: 2021/03/08 11:57:30
+2021/03/08 11:57:30 - getvariables - Initialising 2 steps...
+2021/03/08 11:57:30 - Get rows from result.0 - Released server socket on port 0
+2021/03/08 11:57:30 - Text file output.0 - Released server socket on port 0
+2021/03/08 11:57:30 - Text file output.0 - Parent folder exists [file:///D:/Projects/DataIntegrationProjects/Outputs]!
+2021/03/08 11:57:30 - Text file output.0 - Opening output stream using provider: None
+2021/03/08 11:57:30 - Text file output.0 - Opening output stream in default encoding
+2021/03/08 11:57:30 - Text file output.0 - Opened new file with name [file:///D:/Projects/DataIntegrationProjects/Outputs/outputfile.txt]
+2021/03/08 11:57:30 - getvariables - Step [Get rows from result.0] initialized flawlessly.
+2021/03/08 11:57:30 - getvariables - Step [Text file output.0] initialized flawlessly.
+2021/03/08 11:57:30 - Get rows from result.0 - Starting to run...
+2021/03/08 11:57:30 - Get rows from result.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/08 11:57:30 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:30 - Text file output.0 - Starting to run...
+2021/03/08 11:57:30 - getvariables - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - searching for annotations
+2021/03/08 11:57:31 - getvariables - no annotations found
+2021/03/08 11:57:31 - Get Variables - Using run configuration [Pentaho local]
+2021/03/08 11:57:31 - Get Variables - Running transformation using the Kettle execution engine
+2021/03/08 11:57:31 - getvariables - Dispatching started for transformation [getvariables]
+2021/03/08 11:57:31 - getvariables - Nr of arguments detected:0 
+2021/03/08 11:57:31 - getvariables - This is not a replay transformation
+2021/03/08 11:57:31 - getvariables - I found 2 different steps to launch.
+2021/03/08 11:57:31 - getvariables - Allocating rowsets...
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 0 --> Get rows from result
+2021/03/08 11:57:31 - getvariables -   prevcopies = 1, nextcopies=1
+2021/03/08 11:57:31 - getvariables - Transformation allocated new rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 1 --> Text file output
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 1 --> Text file output  
+2021/03/08 11:57:31 - getvariables - Allocating Steps & StepData...
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Get rows from result.0 - distribution activated
+2021/03/08 11:57:31 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2021/03/08 11:57:31 - Get rows from result.0 - output rel. is  1:1
+2021/03/08 11:57:31 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Get rows from result.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Get rows from result].0
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Text file output.0 - distribution activated
+2021/03/08 11:57:31 - Text file output.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2021/03/08 11:57:31 - Text file output.0 - Got previous step from [Text file output] #0 --> Get rows from result
+2021/03/08 11:57:31 - Text file output.0 - input rel is 1:1
+2021/03/08 11:57:31 - Text file output.0 - Found input rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Text file output.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Text file output].0
+2021/03/08 11:57:31 - getvariables - This transformation can be replayed with replay date: 2021/03/08 11:57:31
+2021/03/08 11:57:31 - getvariables - Initialising 2 steps...
+2021/03/08 11:57:31 - Get rows from result.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Parent folder exists [file:///D:/Projects/DataIntegrationProjects/Outputs]!
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream using provider: None
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream in encoding: windows-1252
+2021/03/08 11:57:31 - Text file output.0 - Opened new file with name [file:///D:/Projects/DataIntegrationProjects/Outputs/outputfile.txt]
+2021/03/08 11:57:31 - getvariables - Step [Get rows from result.0] initialized flawlessly.
+2021/03/08 11:57:31 - getvariables - Step [Text file output.0] initialized flawlessly.
+2021/03/08 11:57:31 - Get rows from result.0 - Starting to run...
+2021/03/08 11:57:31 - Get rows from result.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/08 11:57:31 - getvariables - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Starting to run...
+2021/03/08 11:57:31 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - searching for annotations
+2021/03/08 11:57:31 - getvariables - no annotations found
+2021/03/08 11:57:31 - Get Variables - Using run configuration [Pentaho local]
+2021/03/08 11:57:31 - Get Variables - Running transformation using the Kettle execution engine
+2021/03/08 11:57:31 - getvariables - Dispatching started for transformation [getvariables]
+2021/03/08 11:57:31 - getvariables - Nr of arguments detected:0 
+2021/03/08 11:57:31 - getvariables - This is not a replay transformation
+2021/03/08 11:57:31 - getvariables - I found 2 different steps to launch.
+2021/03/08 11:57:31 - getvariables - Allocating rowsets...
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 0 --> Get rows from result
+2021/03/08 11:57:31 - getvariables -   prevcopies = 1, nextcopies=1
+2021/03/08 11:57:31 - getvariables - Transformation allocated new rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 1 --> Text file output
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 1 --> Text file output  
+2021/03/08 11:57:31 - getvariables - Allocating Steps & StepData...
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Get rows from result.0 - distribution activated
+2021/03/08 11:57:31 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2021/03/08 11:57:31 - Get rows from result.0 - output rel. is  1:1
+2021/03/08 11:57:31 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Get rows from result.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Get rows from result].0
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Text file output.0 - distribution activated
+2021/03/08 11:57:31 - Text file output.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2021/03/08 11:57:31 - Text file output.0 - Got previous step from [Text file output] #0 --> Get rows from result
+2021/03/08 11:57:31 - Text file output.0 - input rel is 1:1
+2021/03/08 11:57:31 - Text file output.0 - Found input rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Text file output.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Text file output].0
+2021/03/08 11:57:31 - getvariables - This transformation can be replayed with replay date: 2021/03/08 11:57:31
+2021/03/08 11:57:31 - getvariables - Initialising 2 steps...
+2021/03/08 11:57:31 - Get rows from result.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Parent folder exists [file:///D:/Projects/DataIntegrationProjects/Outputs]!
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream using provider: None
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream in encoding: windows-1252
+2021/03/08 11:57:31 - Text file output.0 - Opened new file with name [file:///D:/Projects/DataIntegrationProjects/Outputs/outputfile.txt]
+2021/03/08 11:57:31 - getvariables - Step [Get rows from result.0] initialized flawlessly.
+2021/03/08 11:57:31 - getvariables - Step [Text file output.0] initialized flawlessly.
+2021/03/08 11:57:31 - Get rows from result.0 - Starting to run...
+2021/03/08 11:57:31 - Get rows from result.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/08 11:57:31 - getvariables - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Starting to run...
+2021/03/08 11:57:31 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - searching for annotations
+2021/03/08 11:57:31 - getvariables - no annotations found
+2021/03/08 11:57:31 - Get Variables - Using run configuration [Pentaho local]
+2021/03/08 11:57:31 - Get Variables - Running transformation using the Kettle execution engine
+2021/03/08 11:57:31 - getvariables - Dispatching started for transformation [getvariables]
+2021/03/08 11:57:31 - getvariables - Nr of arguments detected:0 
+2021/03/08 11:57:31 - getvariables - This is not a replay transformation
+2021/03/08 11:57:31 - getvariables - I found 2 different steps to launch.
+2021/03/08 11:57:31 - getvariables - Allocating rowsets...
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 0 --> Get rows from result
+2021/03/08 11:57:31 - getvariables -   prevcopies = 1, nextcopies=1
+2021/03/08 11:57:31 - getvariables - Transformation allocated new rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 1 --> Text file output
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 1 --> Text file output  
+2021/03/08 11:57:31 - getvariables - Allocating Steps & StepData...
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Get rows from result.0 - distribution activated
+2021/03/08 11:57:31 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2021/03/08 11:57:31 - Get rows from result.0 - output rel. is  1:1
+2021/03/08 11:57:31 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Get rows from result.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Get rows from result].0
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Text file output.0 - distribution activated
+2021/03/08 11:57:31 - Text file output.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2021/03/08 11:57:31 - Text file output.0 - Got previous step from [Text file output] #0 --> Get rows from result
+2021/03/08 11:57:31 - Text file output.0 - input rel is 1:1
+2021/03/08 11:57:31 - Text file output.0 - Found input rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Text file output.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Text file output].0
+2021/03/08 11:57:31 - getvariables - This transformation can be replayed with replay date: 2021/03/08 11:57:31
+2021/03/08 11:57:31 - getvariables - Initialising 2 steps...
+2021/03/08 11:57:31 - Get rows from result.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Parent folder exists [file:///D:/Projects/DataIntegrationProjects/Outputs]!
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream using provider: None
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream in encoding: windows-1252
+2021/03/08 11:57:31 - Text file output.0 - Opened new file with name [file:///D:/Projects/DataIntegrationProjects/Outputs/outputfile.txt]
+2021/03/08 11:57:31 - getvariables - Step [Get rows from result.0] initialized flawlessly.
+2021/03/08 11:57:31 - getvariables - Step [Text file output.0] initialized flawlessly.
+2021/03/08 11:57:31 - Get rows from result.0 - Starting to run...
+2021/03/08 11:57:31 - Get rows from result.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/08 11:57:31 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Starting to run...
+2021/03/08 11:57:31 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - searching for annotations
+2021/03/08 11:57:31 - getvariables - no annotations found
+2021/03/08 11:57:31 - Get Variables - Using run configuration [Pentaho local]
+2021/03/08 11:57:31 - Get Variables - Running transformation using the Kettle execution engine
+2021/03/08 11:57:31 - getvariables - Dispatching started for transformation [getvariables]
+2021/03/08 11:57:31 - getvariables - Nr of arguments detected:0 
+2021/03/08 11:57:31 - getvariables - This is not a replay transformation
+2021/03/08 11:57:31 - getvariables - I found 2 different steps to launch.
+2021/03/08 11:57:31 - getvariables - Allocating rowsets...
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 0 --> Get rows from result
+2021/03/08 11:57:31 - getvariables -   prevcopies = 1, nextcopies=1
+2021/03/08 11:57:31 - getvariables - Transformation allocated new rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2021/03/08 11:57:31 - getvariables -  Allocating rowsets for step 1 --> Text file output
+2021/03/08 11:57:31 - getvariables -  Allocated 1 rowsets for step 1 --> Text file output  
+2021/03/08 11:57:31 - getvariables - Allocating Steps & StepData...
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Get rows from result.0 - distribution activated
+2021/03/08 11:57:31 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2021/03/08 11:57:31 - Get rows from result.0 - output rel. is  1:1
+2021/03/08 11:57:31 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Get rows from result.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Get rows from result].0
+2021/03/08 11:57:31 - getvariables -  Transformation is about to allocate step [Text file output] of type [TextFileOutput]
+2021/03/08 11:57:31 - getvariables -   Step has nrcopies=1
+2021/03/08 11:57:31 - Text file output.0 - distribution activated
+2021/03/08 11:57:31 - Text file output.0 - Starting allocation of buffers & new threads...
+2021/03/08 11:57:31 - Text file output.0 - Step info: nrinput=1 nroutput=0
+2021/03/08 11:57:31 - Text file output.0 - Got previous step from [Text file output] #0 --> Get rows from result
+2021/03/08 11:57:31 - Text file output.0 - input rel is 1:1
+2021/03/08 11:57:31 - Text file output.0 - Found input rowset [Get rows from result.0 - Text file output.0]
+2021/03/08 11:57:31 - Text file output.0 - Finished dispatching
+2021/03/08 11:57:31 - getvariables -  Transformation has allocated a new step: [Text file output].0
+2021/03/08 11:57:31 - getvariables - This transformation can be replayed with replay date: 2021/03/08 11:57:31
+2021/03/08 11:57:31 - getvariables - Initialising 2 steps...
+2021/03/08 11:57:31 - Get rows from result.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Released server socket on port 0
+2021/03/08 11:57:31 - Text file output.0 - Parent folder exists [file:///D:/Projects/DataIntegrationProjects/Outputs]!
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream using provider: None
+2021/03/08 11:57:31 - Text file output.0 - Opening output stream in encoding: windows-1252
+2021/03/08 11:57:31 - Text file output.0 - Opened new file with name [file:///D:/Projects/DataIntegrationProjects/Outputs/outputfile.txt]
+2021/03/08 11:57:31 - getvariables - Step [Get rows from result.0] initialized flawlessly.
+2021/03/08 11:57:31 - getvariables - Step [Text file output.0] initialized flawlessly.
+2021/03/08 11:57:31 - Get rows from result.0 - Starting to run...
+2021/03/08 11:57:31 - Get rows from result.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/08 11:57:31 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Starting to run...
+2021/03/08 11:57:31 - Text file output.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/08 11:57:31 - Text file output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2021/03/08 11:57:31 - getvariables - searching for annotations
+2021/03/08 11:57:31 - getvariables - no annotations found

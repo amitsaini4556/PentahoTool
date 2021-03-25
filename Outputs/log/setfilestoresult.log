@@ -1,0 +1,53 @@
+2021/03/22 16:03:50 - Transformation - Opening transformation: [D:/Projects/DataIntegrationProjects/Outputs/Demo.ktr]
+2021/03/22 16:03:50 - Transformation - Starting transformation...(file=D:/Projects/DataIntegrationProjects/Outputs/Demo.ktr, name=Transformation, repinfo=null)
+2021/03/22 16:03:50 - Transformation - Using run configuration [Pentaho local]
+2021/03/22 16:03:50 - Transformation - Running transformation using the Kettle execution engine
+2021/03/22 16:03:50 - Demo - Transformation is pre-loaded.
+2021/03/22 16:03:50 - Demo - nr of steps to run : 2  , nr of hops : 1
+2021/03/22 16:03:50 - Demo - Dispatching started for transformation [Demo]
+2021/03/22 16:03:50 - Demo - Nr of arguments detected:0 
+2021/03/22 16:03:50 - Demo - This is not a replay transformation
+2021/03/22 16:03:50 - Demo - I found 2 different steps to launch.
+2021/03/22 16:03:50 - Demo - Allocating rowsets...
+2021/03/22 16:03:50 - Demo -  Allocating rowsets for step 0 --> Get file names
+2021/03/22 16:03:50 - Demo -   prevcopies = 1, nextcopies=1
+2021/03/22 16:03:50 - Demo - Transformation allocated new rowset [Get file names.0 - Set files in result.0]
+2021/03/22 16:03:50 - Demo -  Allocated 1 rowsets for step 0 --> Get file names  
+2021/03/22 16:03:50 - Demo -  Allocating rowsets for step 1 --> Set files in result
+2021/03/22 16:03:50 - Demo -  Allocated 1 rowsets for step 1 --> Set files in result  
+2021/03/22 16:03:50 - Demo - Allocating Steps & StepData...
+2021/03/22 16:03:50 - Demo -  Transformation is about to allocate step [Get file names] of type [GetFileNames]
+2021/03/22 16:03:50 - Demo -   Step has nrcopies=1
+2021/03/22 16:03:50 - Get file names.0 - distribution activated
+2021/03/22 16:03:50 - Get file names.0 - Starting allocation of buffers & new threads...
+2021/03/22 16:03:50 - Get file names.0 - Step info: nrinput=0 nroutput=1
+2021/03/22 16:03:50 - Get file names.0 - output rel. is  1:1
+2021/03/22 16:03:50 - Get file names.0 - Found output rowset [Get file names.0 - Set files in result.0]
+2021/03/22 16:03:50 - Get file names.0 - Finished dispatching
+2021/03/22 16:03:50 - Demo -  Transformation has allocated a new step: [Get file names].0
+2021/03/22 16:03:50 - Demo -  Transformation is about to allocate step [Set files in result] of type [FilesToResult]
+2021/03/22 16:03:50 - Demo -   Step has nrcopies=1
+2021/03/22 16:03:50 - Set files in result.0 - distribution activated
+2021/03/22 16:03:50 - Set files in result.0 - Starting allocation of buffers & new threads...
+2021/03/22 16:03:50 - Set files in result.0 - Step info: nrinput=1 nroutput=0
+2021/03/22 16:03:50 - Set files in result.0 - Got previous step from [Set files in result] #0 --> Get file names
+2021/03/22 16:03:50 - Set files in result.0 - input rel is 1:1
+2021/03/22 16:03:50 - Set files in result.0 - Found input rowset [Get file names.0 - Set files in result.0]
+2021/03/22 16:03:50 - Set files in result.0 - Finished dispatching
+2021/03/22 16:03:50 - Demo -  Transformation has allocated a new step: [Set files in result].0
+2021/03/22 16:03:50 - Demo - This transformation can be replayed with replay date: 2021/03/22 16:03:50
+2021/03/22 16:03:50 - Demo - Initialising 2 steps...
+2021/03/22 16:03:50 - Get file names.0 - Released server socket on port 0
+2021/03/22 16:03:50 - Set files in result.0 - Released server socket on port 0
+2021/03/22 16:03:50 - Demo - Step [Get file names.0] initialized flawlessly.
+2021/03/22 16:03:50 - Demo - Step [Set files in result.0] initialized flawlessly.
+2021/03/22 16:03:50 - Get file names.0 - Starting to run...
+2021/03/22 16:03:50 - Demo - Transformation has allocated 2 threads and 1 rowsets.
+2021/03/22 16:03:50 - Set files in result.0 - Starting to run...
+2021/03/22 16:03:50 - Get file names.0 - Signaling 'output done' to 1 output rowsets.
+2021/03/22 16:03:50 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2021/03/22 16:03:50 - Set files in result.0 - Added 5 files to the result
+2021/03/22 16:03:50 - Set files in result.0 - Signaling 'output done' to 0 output rowsets.
+2021/03/22 16:03:50 - Set files in result.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2021/03/22 16:03:50 - Demo - searching for annotations
+2021/03/22 16:03:50 - Demo - no annotations found
